@@ -58,12 +58,12 @@ overflow: hidden;}
 
 /*End*/
 
-
-
-
 .breadcrumb { padding: 0px 0px; background: none !important;}
 .img-intro img { width:100px; height:101px;}
-.article-content img{ width:200px;}
+.articleInner > div img {
+	margin:10px;
+}
+.article-content img{max-width: 400px; width:90%;}
 .business_section {
 margin-top: 20px;
 margin-bottom: 10px;
@@ -139,7 +139,6 @@ overflow: hidden;}
 .logo-image small{margin-top: -80px;}
 .logo-image small{ margin-left: 125px;}
 .map-container { width : 320px !important;}
-}
 }
 @media screen and (min-width: 421px) and (max-width: 520px) {
 .addthis_32x32_style .at15nc.at300bs { height: 50px !important;width: 50px !important; }
